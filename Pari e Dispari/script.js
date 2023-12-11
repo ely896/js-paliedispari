@@ -29,6 +29,12 @@ console.log("Numero casuale:", numeroRandomComputer);
 
 const numeroUser = pariodispari();
 
+if (numeroRandomComputer > numeroUser) {
+    console.log(`The Winner is Computer`);
+} else if (numeroRandomComputer < numeroUser) {
+    console.log(`The Winner is User`);
+}
+
 let somma = numeroUser + numeroRandomComputer;
 
 console.log(somma);
@@ -39,16 +45,7 @@ if (somma % 2 == 0) {
     console.log(`il totale è un numero dispari`);
 } 
 
-function winner() {
-    let a = numeroUser;
-    let b = numeroRandomComputer;
 
-    if (a > b) {
-        console.log(`the winner is User`);
-    } else if (a < b) {
-        console.log(`the winner is Computer`);
-    }  
-}
 
 
 
