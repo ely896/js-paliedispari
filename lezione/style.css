@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 100px;
+    gap: 1rem;
+
+    .box {
+        border: 1px solid red;
+        width: 100px;
+        aspect-ratio: 1;
+    }
+}
