@@ -9,7 +9,7 @@ Dichiariamo chi ha vinto.*/
 function pariodispari() {
     const numeroUtente = Number(prompt('Scegli un numero tra 1 e 5 ed inseriscilo'));
     //condizione per verificare che i numeri inseriti siano quelli giusti
-    if (numeroUtente != 1 && numeroUtente != 2 && numeroUtente != 3 && numeroUtente != 4 && numeroUtente != 5) {
+    if (numeroUtente < 1 || numeroUtente > 5) {
         prompt('numero inserito non corretto, ricominciare');
 
     }
